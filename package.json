@@ -1,0 +1,41 @@
+{
+    "name":        "gemstone",
+    "homepage":    "http://gemstonejs.com/",
+    "description": "Gemstone Command-Line Interface (CLI)",
+    "version":     "0.0.0",
+    "license":     "GPL",
+    "author": {
+        "name":    "Ralf S. Engelschall",
+        "email":   "rse@engelschall.com",
+        "url":     "http://engelschall.com"
+    },
+    "keywords": [
+        "gemstone",
+        "cli",
+        "spa",
+        "scaffold"
+    ],
+    "repository": {
+        "type": "git",
+        "url":  "git://github.com/rse/gemstone-cli.git"
+    },
+    "bugs": {
+        "url":  "http://github.com/rse/gemstone-cli/issues"
+    },
+    "main": "./gemstone.js",
+    "bin": {
+        "gemstone": "./gemstone.js"
+    },
+    "devDependencies": {
+    },
+    "dependencies" : {
+    },
+    "peerDependencies": {
+        "yo":        ">=1.1.2",
+        "bower":     ">=1.2.8",
+        "grunt-cli": ">=0.1.11"
+    },
+    "engines": {
+        "node":      ">=0.10.0"
+    }
+}
