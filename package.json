@@ -31,11 +31,12 @@
     "dependencies" : {
     },
     "peerDependencies": {
-        "yo":        ">=1.1.2",
-        "bower":     ">=1.2.8",
-        "grunt-cli": ">=0.1.11"
+        "yo":                 ">=1.1.2",
+        "bower":              ">=1.2.8",
+        "grunt-cli":          ">=0.1.11",
+        "generator-gemstone": ">=0.0.0"
     },
     "engines": {
-        "node":      ">=0.10.0"
+        "node":               ">=0.10.0"
     }
 }
