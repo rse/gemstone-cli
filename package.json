@@ -22,9 +22,9 @@
     "bugs": {
         "url":  "http://github.com/rse/gemstone-cli/issues"
     },
-    "main": "./gemstone.js",
+    "main": "./gemstone-api.js",
     "bin": {
-        "gemstone": "./gemstone.js"
+        "gemstone": "./gemstone-cli.js"
     },
     "devDependencies": {
         "grunt-cli":            "~0.1.13",
