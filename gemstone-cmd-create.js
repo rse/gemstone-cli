@@ -10,18 +10,18 @@
 /* global require: false */
 /* global module: false */
 
-var sprintf = require("sprintfjs")
-var chalk   = require("chalk")
+var sprintf = require("sprintfjs");
+var chalk   = require("chalk");
 
 module.exports = {
-    opts: {},
+    opts: {
+        test1: { type: "boolean", def: false,      desc: "Test1" },
+        test2: { type: "string",  def: "testerli", desc: "Test2" },
+        test3: { type: "integer", def: 42,         desc: "Test3" }
+    },
     args: { min: 0, max: 0 },
-    command: function (/* opts, args */) {
-        this.result(
-            chalk.bold("Gemstone") + " " +
-            chalk.blue(sprintf("%d.%d.%d", this.version.major, this.version.minor, this.version.micro)) +
-            " (" + chalk.blue(this.version.date) + ")"
-        )
+    command: function (opts, args) {
+        this.result("creating project)
     }
 }
 
