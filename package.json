@@ -33,6 +33,12 @@
         "grunt-eslint":         "~1.0.0"
     },
     "dependencies" : {
+        "sprintfjs":            "~1.1.4",
+        "chalk":                "~0.5.1",
+        "dashdash":             "~1.6.0",
+        "js-yaml":              "~3.2.1",
+        "glob":                 "~4.0.5",
+        "lodash":               "~2.4.1"
     },
     "peerDependencies": {
         "yo":                   "~1.1.2",

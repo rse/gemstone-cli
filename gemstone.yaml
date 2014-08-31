@@ -1,0 +1,38 @@
+
+version: 1.0
+
+project:
+    app-id:            example
+    app-name:          Example App
+    app-summary:       The Example Application
+    app-homepage:      http://app.example.com/
+    app-version:       0.0.0
+    app-date:          20140101
+    copyright-year:    2014
+    copyright-name:    Example Corporation
+    copyright-addr:    http://example.com/
+    license-info: |
+        This Source Code Form is subject to the terms of the Mozilla Public
+        License (MPL), version 2.0. If a copy of the MPL was not distributed
+        with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+scaffolding:
+    widget-view-mask:     "app/widget/{{name}}/{{name}}-view.mask.html"
+    widget-view-i18n:     "app/widget/{{name}}/{{name}}-view.i18n.yaml"
+    widget-view-asset:    "app/widget/{{name}}/{{name}}-view.asset.yaml"
+    widget-view-style:    "app/widget/{{name}}/{{name}}-view.style.less"
+    widget-view-code:     "app/widget/{{name}}/{{name}}-view.js"
+    widget-model-code:    "app/widget/{{name}}/{{name}}-model.js"
+    composite-view-mask:  "app/composite/{{name}}/{{name}}-view.mask.html"
+    composite-view-i18n:  "app/composite/{{name}}/{{name}}-view.i18n.yaml"
+    composite-view-asset: "app/composite/{{name}}/{{name}}-view.asset.yaml"
+    composite-view-style: "app/composite/{{name}}/{{name}}-view.style.less"
+    composite-view-code:  "app/composite/{{name}}/{{name}}-view.js"
+    composite-model-code: "app/composite/{{name}}/{{name}}-model.js"
+    composite-ctrl-code:  "app/composite/{{name}}/{{name}}-ctrl.js"
+
+provisioning:
+    gemstone:             "gemstone-lib@0.0.0:Gemstone:gemstone.js"
+    jquery:               "jquery@2.1.0:jQuery:dist/jquery.js"
+    componentjs:          "componentjs@1.1.2:ComponentJS:componentjs*.js"
+

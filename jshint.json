@@ -23,5 +23,6 @@
     "maxstatements": 150,
     "maxlen":        200,
     "loopfunc":      true,
+    "asi":           true,
     "-W014":         false
 }
