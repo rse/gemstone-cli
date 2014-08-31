@@ -20,7 +20,7 @@ module.exports = {
             obj = yaml.safeLoad(fs.readFileSync(filename, { encoding: "utf8" }), {
                 filename: filename,
                 schema: yaml.DEFAULT_SAFE_SCHEMA
-            });
+            })
         }
         catch (e) {
             throw new Error("failed to parse YAML file \"" + filename + "\": %s", e.message)

@@ -10,8 +10,8 @@
 /* global require: false */
 /* global module: false */
 
-var sprintf = require("sprintfjs");
-var chalk   = require("chalk");
+var sprintf = require("sprintfjs")
+var chalk   = require("chalk")
 
 module.exports = {
     opts: {
