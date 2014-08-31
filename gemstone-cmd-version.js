@@ -10,8 +10,8 @@
 /* global require: false */
 /* global module: false */
 
-var sprintf = require("sprintfjs");
-var chalk   = require("chalk");
+var sprintf = require("sprintfjs")
+var chalk   = require("chalk")
 
 module.exports = {
     opts: {
@@ -25,7 +25,7 @@ module.exports = {
             chalk.bold("Gemstone") + " " +
             chalk.blue(sprintf("%d.%d.%d", this.version.major, this.version.minor, this.version.micro)) +
             " (" + chalk.blue(this.version.date) + ")"
-        );
+        )
     }
-};
+}
 
